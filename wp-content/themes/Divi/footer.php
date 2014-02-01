@@ -39,7 +39,7 @@
 				<?php endif; ?>
 				</ul>
 
-				<p id="footer-info">®2014 Wisdom Worldwide Inc | All rights reserved</p>
+				<p id="footer-info">®2014 Emotion Worldwide Inc | All rights reserved</p>
 			</div>	<!-- .container -->
 		</div>
 	</footer> <!-- #main-footer -->
