@@ -1,0 +1,109 @@
+/* Config service*/
+
+
+.srvOption, .srvHelp { display: none; }
+.srvOption {border-top: 1px solid #d6d6d6; margin-top: 15px; width: 680px;}
+
+.longinput { width: 330px; padding: 10px; margin-bottom: 15px; font-size:14px; font-style:italic; color:#565656;}
+
+/* Config step 2 */
+.setingOptionsBox {float: left; width: 300px;}
+
+.setingOptionsBox.disabled, div.disabled, a.disabled { color:#b9b9b9;}
+
+
+
+/*dashboard*/
+
+.ui-progressbar  {width:450px; height:18px;}
+.ui-widget-header {border-color: #82A9C4;}
+.ui-widget-content { background: #fff; font-size: 14px; }
+
+.loading_bar {font-size:11px;color:#666;padding-top:15px;}
+.loading_bar.static > .static_image {display: block;}
+.loading_bar.dinamic > .static_image {display: none;}
+.loading_bar.static > .dinamic_image {display: none;}
+.loading_bar.dinamic > .dinamic_image {display: block;}
+
+
+.pb_action { text-decoration: none; color: #565656; margin-right:15px; font-weight: bold; font-size:12px;  }
+
+.pb_action2 { text-decoration: none; color: #565656; font-weight: bold; }
+
+.pb_action img {vertical-align: middle;}
+
+.pba_details {font-size:10px}
+
+
+.tab:hover{
+	background: -moz-linear-gradient(top, #2173D5 0%, #F3F3F3 10%);
+	background: -webkit-gradient(linear, top right, top left, color-stop(0%, #2173D5), color-stop(10%,#F3F3F3));
+	background: -webkit-linear-gradient(top, #2173D5 0%,#F3F3F3 10%);
+	background: linear-gradient(top, #2173D5 0%,#F3F3F3 10%);
+}
+
+.tab.tabactive:hover {
+	background: -moz-linear-gradient(top, #2173D5 0%, #FFFFFF 10%);
+	background: -webkit-gradient(linear, top right, top left, color-stop(0%, #2173D5), color-stop(10%,#FFFFFF));
+	background: -webkit-linear-gradient(top, #2173D5 0%,#FFFFFF 10%);
+	background: linear-gradient(top, #2173D5 0%,#FFFFFF 10%);
+}
+
+.tab.t_tabactive:hover{
+	background: -moz-linear-gradient(top, #2173D5 0%, #FCFCFC 10%);
+	background: -webkit-gradient(linear, top right, top left, color-stop(0%, #2173D5), color-stop(10%,#FCFCFC));
+	background: -webkit-linear-gradient(top, #2173D5 0%,#FCFCFC 10%);
+	background: linear-gradient(top, #2173D5 0%,#FCFCFC 10%);
+}
+
+div.tab.icon {
+	width: 20px;
+	height: 16px;
+}
+div.tab.icon + div.tab{
+	margin-left:5px;
+}
+div.tab.icon + div.tab.icon{
+	margin-left:0px;
+}
+
+.widefat {
+	 background-color: #FFF7E7;
+}
+
+hr.separator {margin: 15px 0 ; border: none; height: 1px; background-color: #7AC4E9;}
+
+.mbox_wfixed {
+	width:inherit;
+}
+
+.newsletter {
+	margin-right: 45px;
+}
+.upgrade_message_dash {
+	width: 500px;
+	padding: 24px 0 0 30px;
+	border-left: 1px solid #e6e6e6;
+}
+#upgrade_message .left, .upgrade_message_dash .left {margin-left: 20px;}
+#upgrade_message .left a, .upgrade_message_dash .left a {text-decoration: none;}
+#upgrade_message .left a.upgrade_button, .upgrade_message_dash .left a.upgrade_button {
+	font-size: 17px;
+	background: #007cd1;
+	border-radius: 3px;
+	color: #fff;
+	padding: 10px;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1220px) {
+	.newsletter {
+	}
+	.upgrade_message_dash {
+		padding: 30px 0 0 0;
+		border-left: none;
+	}
+
+}
+
+
